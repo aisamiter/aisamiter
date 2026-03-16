@@ -1,5 +1,7 @@
 # Pablo Samiter — AI Automation Strategist & Agent Orchestrator
 
+**🌐 Live site:** [aisamiter.github.io/aisamiter](https://aisamiter.github.io/aisamiter/) &nbsp;·&nbsp; 🇦🇷 Disponible en Español / 🇺🇸 Available in English — toggle in the nav bar.
+
 > *"I bridge the gap between AI strategy and human readiness. I don't just build the future of work. I activate it."*
 
 Industrial Engineer. 20+ years in enterprise transformation. Now building the AI systems that make that transformation stick.

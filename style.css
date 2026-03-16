@@ -240,6 +240,28 @@ p { color: var(--text-muted); line-height: 1.75; }
   gap: 1rem;
 }
 
+/* Language Toggle */
+.lang-toggle {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: var(--text-muted);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.lang-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-glow);
+}
+
 /* Hamburger */
 .hamburger {
   display: none;
@@ -1153,6 +1175,7 @@ footer {
   .hero-badge { font-size: 0.68rem; }
 
   .nav-links, .nav-right .btn { display: none; }
+  .lang-toggle { display: flex; }
   .hamburger { display: flex; }
 
   .gap-grid {

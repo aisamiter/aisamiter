@@ -30,15 +30,16 @@
       </a>
 
       <ul class="nav-links">
-        <li><a href="#gap">Problem</a></li>
-        <li><a href="#projects">Work</a></li>
+        <li><a href="#gap" data-i18n="nav.problem">Problem</a></li>
+        <li><a href="#projects" data-i18n="nav.work">Work</a></li>
         <li><a href="#stack">Stack</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
       <div class="nav-right">
-        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">ES</button>
+        <a href="#contact" class="btn btn-primary" data-i18n="nav.cta">Let's Talk</a>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
           <span></span><span></span><span></span>
         </button>
@@ -49,12 +50,12 @@
 
   <!-- Mobile Nav Overlay -->
   <div class="mobile-nav" id="mobile-nav">
-    <a href="#gap">Problem</a>
-    <a href="#projects">Work</a>
+    <a href="#gap" data-i18n="nav.problem">Problem</a>
+    <a href="#projects" data-i18n="nav.work">Work</a>
     <a href="#stack">Stack</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-    <a href="#contact" class="btn btn-primary" style="margin-top:1rem">Let's Talk</a>
+    <a href="#services" data-i18n="nav.services">Services</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+    <a href="#contact" class="btn btn-primary" style="margin-top:1rem" data-i18n="nav.cta">Let's Talk</a>
   </div>
 
 
@@ -66,18 +67,18 @@
       <div class="hero-inner">
 
         <div class="hero-content">
-          <div class="hero-badge reveal">
+          <div class="hero-badge reveal" data-i18n="hero.badge">
             <span class="hero-badge-dot"></span>
             AI Automation Strategist &nbsp;·&nbsp; Agent Orchestrator
           </div>
 
-          <h1 class="hero-title reveal reveal-delay-1">
+          <h1 class="hero-title reveal reveal-delay-1" data-i18n="hero.title">
             I don't just build<br/>
             the future of work.<br/>
             <span class="activate-word">I activate it.</span>
           </h1>
 
-          <p class="hero-desc reveal reveal-delay-2">
+          <p class="hero-desc reveal reveal-delay-2" data-i18n="hero.desc">
             I bridge the gap between AI strategy and human readiness.
             Industrial Engineer. 20+ years of enterprise transformation.
             Now designing multi-agent systems — and driving the organizational
@@ -85,8 +86,8 @@
           </p>
 
           <div class="hero-ctas reveal reveal-delay-3">
-            <a href="#projects" class="btn btn-primary">See My Work</a>
-            <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+            <a href="#projects" class="btn btn-primary" data-i18n="hero.cta1">See My Work</a>
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Let's Talk</a>
           </div>
         </div>
 
@@ -99,7 +100,7 @@
               class="hero-photo"
               loading="eager"
             />
-            <span class="hero-photo-label">Buenos Aires, Argentina · Open to Remote</span>
+            <span class="hero-photo-label" data-i18n="hero.location">Buenos Aires, Argentina · Open to Remote</span>
           </div>
         </div>
 
@@ -107,7 +108,7 @@
     </div>
 
     <div class="hero-scroll" aria-hidden="true">
-      <span>scroll</span>
+      <span data-i18n="hero.scroll">scroll</span>
       <div class="scroll-line"></div>
     </div>
   </section>
@@ -119,37 +120,37 @@
   <section id="gap" class="section-alt">
     <div class="container">
 
-      <span class="section-label reveal">The Problem I Solve</span>
-      <h2 class="reveal reveal-delay-1">Most organizations<br/>don't have an AI problem.<br/>They have an <span style="color:var(--accent)">adoption problem.</span></h2>
+      <span class="section-label reveal" data-i18n="gap.label">The Problem I Solve</span>
+      <h2 class="reveal reveal-delay-1" data-i18n="gap.h2">Most organizations<br/>don't have an AI problem.<br/>They have an <span style="color:var(--accent)">adoption problem.</span></h2>
 
       <div class="gap-grid reveal reveal-delay-2">
 
         <div class="gap-box gap-box-problem">
-          <span class="gap-box-label">Failure Mode A</span>
-          <h3>AI Capability is ready</h3>
-          <p>The technology exists. The budget is allocated. The pilots ran. And then… nothing scales.</p>
+          <span class="gap-box-label" data-i18n="gap.failA.label">Failure Mode A</span>
+          <h3 data-i18n="gap.failA.h3">AI Capability is ready</h3>
+          <p data-i18n="gap.failA.p">The technology exists. The budget is allocated. The pilots ran. And then… nothing scales.</p>
         </div>
 
         <div class="gap-arrow" aria-hidden="true">⟷</div>
 
         <div class="gap-box gap-box-center">
-          <span class="gap-box-label">The Gap</span>
-          <h3>Where transformation stalls</h3>
-          <p>Between strategy and adoption. Between tools and behavior change. Between pilot and production.</p>
+          <span class="gap-box-label" data-i18n="gap.center.label">The Gap</span>
+          <h3 data-i18n="gap.center.h3">Where transformation stalls</h3>
+          <p data-i18n="gap.center.p">Between strategy and adoption. Between tools and behavior change. Between pilot and production.</p>
         </div>
 
         <div class="gap-arrow" aria-hidden="true">⟷</div>
 
         <div class="gap-box gap-box-problem">
-          <span class="gap-box-label">Failure Mode B</span>
-          <h3>Organizational readiness isn't</h3>
-          <p>Or the people are enthusiastic, but there's no one who can architect what comes next.</p>
+          <span class="gap-box-label" data-i18n="gap.failB.label">Failure Mode B</span>
+          <h3 data-i18n="gap.failB.h3">Organizational readiness isn't</h3>
+          <p data-i18n="gap.failB.p">Or the people are enthusiastic, but there's no one who can architect what comes next.</p>
         </div>
 
       </div>
 
       <div class="gap-conclusion reveal reveal-delay-3">
-        <p>
+        <p data-i18n="gap.conclusion">
           That gap is <strong>exactly where I operate</strong>. I'm not an AI researcher.
           I'm not a traditional L&D consultant. I'm the rare profile that does both:
           I design multi-agent systems <em>and</em> lead the human adoption change that makes them stick.
@@ -169,30 +170,30 @@
 
         <div class="proof-item reveal">
           <span class="proof-number">120+</span>
-          <span class="proof-label">AI Ambassadors trained & activated</span>
+          <span class="proof-label" data-i18n="proof.1.label">AI Ambassadors trained & activated</span>
           <span class="proof-org">HSBC Americas</span>
-          <span class="proof-sub">Global Hall of Fame</span>
+          <span class="proof-sub" data-i18n="proof.1.sub">Global Hall of Fame</span>
         </div>
 
         <div class="proof-item reveal reveal-delay-1">
           <span class="proof-number">10K+</span>
-          <span class="proof-label">Employees enabled on AI</span>
+          <span class="proof-label" data-i18n="proof.2.label">Employees enabled on AI</span>
           <span class="proof-org">Microsoft Copilot</span>
-          <span class="proof-sub">Post-merger deployment</span>
+          <span class="proof-sub" data-i18n="proof.2.sub">Post-merger deployment</span>
         </div>
 
         <div class="proof-item reveal reveal-delay-2">
           <span class="proof-number">27K</span>
-          <span class="proof-label">Employees, global L&D programs</span>
+          <span class="proof-label" data-i18n="proof.3.label">Employees, global L&D programs</span>
           <span class="proof-org">TenarisUniversity</span>
-          <span class="proof-sub">30+ countries</span>
+          <span class="proof-sub" data-i18n="proof.3.sub">30+ countries</span>
         </div>
 
         <div class="proof-item reveal reveal-delay-3">
           <span class="proof-number">20+</span>
-          <span class="proof-label">Years enterprise transformation</span>
-          <span class="proof-org">Supply chain → L&D → AI</span>
-          <span class="proof-sub">Industrial Engineer lens</span>
+          <span class="proof-label" data-i18n="proof.4.label">Years enterprise transformation</span>
+          <span class="proof-org" data-i18n="proof.4.org">Supply chain → L&D → AI</span>
+          <span class="proof-sub" data-i18n="proof.4.sub">Industrial Engineer lens</span>
         </div>
 
       </div>
@@ -207,44 +208,44 @@
     <div class="container">
 
       <div class="stack-intro">
-        <span class="section-label reveal">The Rare Combination</span>
-        <h2 class="reveal reveal-delay-1">Strategy. Execution. Adoption.<br/><span style="color:var(--accent)">All three.</span></h2>
-        <p class="reveal reveal-delay-2">Most AI professionals pick one axis. The market is starving for someone who connects all three — and has the receipts to prove it.</p>
+        <span class="section-label reveal" data-i18n="layers.label">The Rare Combination</span>
+        <h2 class="reveal reveal-delay-1" data-i18n="layers.h2">Strategy. Execution. Adoption.<br/><span style="color:var(--accent)">All three.</span></h2>
+        <p class="reveal reveal-delay-2" data-i18n="layers.p">Most AI professionals pick one axis. The market is starving for someone who connects all three — and has the receipts to prove it.</p>
       </div>
 
       <div class="stack-cards">
 
         <div class="stack-card reveal">
-          <span class="stack-card-num">01 / PROVEN AT SCALE</span>
-          <h3>Enterprise Track Record</h3>
-          <p>These aren't projects — they're operating history. At scale, in regulated environments, with real organizational complexity.</p>
+          <span class="stack-card-num" data-i18n="layers.card1.num">01 / PROVEN AT SCALE</span>
+          <h3 data-i18n="layers.card1.h3">Enterprise Track Record</h3>
+          <p data-i18n="layers.card1.p">These aren't projects — they're operating history. At scale, in regulated environments, with real organizational complexity.</p>
           <ul>
-            <li>HSBC Americas AI Ambassador Network — 120+ people, global Hall of Fame recognition</li>
-            <li>Microsoft Copilot rollout — 10,000+ employees post Galicia–HSBC acquisition</li>
-            <li>TenarisUniversity — global L&D programs across 27K employees, 30+ countries</li>
+            <li data-i18n="layers.card1.li1">HSBC Americas AI Ambassador Network — 120+ people, global Hall of Fame recognition</li>
+            <li data-i18n="layers.card1.li2">Microsoft Copilot rollout — 10,000+ employees post Galicia–HSBC acquisition</li>
+            <li data-i18n="layers.card1.li3">TenarisUniversity — global L&D programs across 27K employees, 30+ countries</li>
           </ul>
         </div>
 
         <div class="stack-card reveal reveal-delay-1">
-          <span class="stack-card-num">02 / ACTIVE BUILDER</span>
-          <h3>Production Tools, Not Demos</h3>
-          <p>Every project in my portfolio is production-first. Built with real stacks, for real problems, with real iteration history.</p>
+          <span class="stack-card-num" data-i18n="layers.card2.num">02 / ACTIVE BUILDER</span>
+          <h3 data-i18n="layers.card2.h3">Production Tools, Not Demos</h3>
+          <p data-i18n="layers.card2.p">Every project in my portfolio is production-first. Built with real stacks, for real problems, with real iteration history.</p>
           <ul>
-            <li>Praxis — multi-agent L&D pipeline (TNA → Content Creator → Delivery Agent)</li>
-            <li>CV Forge Pro — AI CV optimization (React 19, Supabase, Groq API)</li>
-            <li>Job Search Automation — 6 ATS platforms, Gmail integration, CRM layer</li>
-            <li>Onboarding Game — real-time multiplayer simulation, 8 live KPIs</li>
+            <li data-i18n="layers.card2.li1">Praxis — multi-agent L&D pipeline (TNA → Content Creator → Delivery Agent)</li>
+            <li data-i18n="layers.card2.li2">CV Forge Pro — AI CV optimization (React 19, Supabase, Groq API)</li>
+            <li data-i18n="layers.card2.li3">Job Search Automation — 6 ATS platforms, Gmail integration, CRM layer</li>
+            <li data-i18n="layers.card2.li4">Onboarding Game — real-time multiplayer simulation, 8 live KPIs</li>
           </ul>
         </div>
 
         <div class="stack-card reveal reveal-delay-2">
-          <span class="stack-card-num">03 / SYSTEMS THINKER</span>
-          <h3>Industrial Engineer Lens</h3>
-          <p>Industrial Engineering is the study of how humans and systems interact at scale. When I look at a failing AI rollout, I see a flow problem.</p>
+          <span class="stack-card-num" data-i18n="layers.card3.num">03 / SYSTEMS THINKER</span>
+          <h3 data-i18n="layers.card3.h3">Industrial Engineer Lens</h3>
+          <p data-i18n="layers.card3.p">Industrial Engineering is the study of how humans and systems interact at scale. When I look at a failing AI rollout, I see a flow problem.</p>
           <ul>
-            <li>Design for scale — architecture before implementation</li>
-            <li>Build for adoption — the human layer is not optional</li>
-            <li>Govern for sustainability — compliance and governance baked in</li>
+            <li data-i18n="layers.card3.li1">Design for scale — architecture before implementation</li>
+            <li data-i18n="layers.card3.li2">Build for adoption — the human layer is not optional</li>
+            <li data-i18n="layers.card3.li3">Govern for sustainability — compliance and governance baked in</li>
           </ul>
         </div>
 
@@ -261,9 +262,9 @@
     <div class="container">
 
       <div class="projects-header">
-        <span class="section-label reveal">Active Projects</span>
-        <h2 class="reveal reveal-delay-1">Production-first.<br/>Not toy demos.</h2>
-        <p class="reveal reveal-delay-2">Every project here has a lineage. That's not experimentation — it's engineering methodology applied to software.</p>
+        <span class="section-label reveal" data-i18n="projects.label">Active Projects</span>
+        <h2 class="reveal reveal-delay-1" data-i18n="projects.h2">Production-first.<br/>Not toy demos.</h2>
+        <p class="reveal reveal-delay-2" data-i18n="projects.p">Every project here has a lineage. That's not experimentation — it's engineering methodology applied to software.</p>
       </div>
 
       <div class="projects-grid">
@@ -278,8 +279,8 @@
               </svg>
             </a>
           </div>
-          <div class="project-tagline">Multi-Agent L&D Pipeline</div>
-          <p class="project-desc">
+          <div class="project-tagline" data-i18n="projects.praxis.tagline">Multi-Agent L&D Pipeline</div>
+          <p class="project-desc" data-i18n="projects.praxis.desc">
             Three-agent pipeline: TNA Agent analyzes skill gaps → Content Creator Agent generates role-specific assets → Delivery Agent handles deployment. L&D content production from days to minutes.
           </p>
           <div class="project-stack">
@@ -288,8 +289,8 @@
             <span class="pill">NEXUS Framework</span>
             <span class="pill">Multi-Agent</span>
           </div>
-          <div class="project-lineage">↑ Evolved from Steelmind AI proof-of-concept</div>
-          <div class="project-impact">L&D content: days → minutes</div>
+          <div class="project-lineage" data-i18n="projects.praxis.lineage">↑ Evolved from Steelmind AI proof-of-concept</div>
+          <div class="project-impact" data-i18n="projects.praxis.impact">L&D content: days → minutes</div>
         </div>
 
         <!-- CV Forge Pro -->
@@ -302,8 +303,8 @@
               </svg>
             </a>
           </div>
-          <div class="project-tagline">AI-Powered CV Optimization Platform</div>
-          <p class="project-desc">
+          <div class="project-tagline" data-i18n="projects.cv.tagline">AI-Powered CV Optimization Platform</div>
+          <p class="project-desc" data-i18n="projects.cv.desc">
             Surgical CV adaptation with ATS scoring and fabrication detection. PDF extraction, keyword analysis, change tracking, cover letter generation, and multi-format export.
           </p>
           <div class="project-stack">
@@ -313,7 +314,7 @@
             <span class="pill">Groq API</span>
             <span class="pill">Vercel</span>
           </div>
-          <div class="project-impact">ATS scoring · Cover letters · 30-60-90 day plans</div>
+          <div class="project-impact" data-i18n="projects.cv.impact">ATS scoring · Cover letters · 30-60-90 day plans</div>
         </div>
 
         <!-- Job Search Automation -->
@@ -326,8 +327,8 @@
               </svg>
             </a>
           </div>
-          <div class="project-tagline">ATS Intelligence System</div>
-          <p class="project-desc">
+          <div class="project-tagline" data-i18n="projects.job.tagline">ATS Intelligence System</div>
+          <p class="project-desc" data-i18n="projects.job.desc">
             Daily briefing system scanning 6 global ATS platforms across 9 role categories. Anti-noise filters, seniority gates, HTML email scheduling, and application status tracking.
           </p>
           <div class="project-stack">
@@ -335,8 +336,8 @@
             <span class="pill">Serper.dev API</span>
             <span class="pill">Gmail API</span>
           </div>
-          <div class="project-lineage">↑ 3rd gen, evolved from Boolean Search builder</div>
-          <div class="project-impact">6 ATS platforms · 9 role categories · Daily briefing</div>
+          <div class="project-lineage" data-i18n="projects.job.lineage">↑ 3rd gen, evolved from Boolean Search builder</div>
+          <div class="project-impact" data-i18n="projects.job.impact">6 ATS platforms · 9 role categories · Daily briefing</div>
         </div>
 
         <!-- Onboarding Game -->
@@ -349,8 +350,8 @@
               </svg>
             </a>
           </div>
-          <div class="project-tagline">Real-Time Business Simulation</div>
-          <p class="project-desc">
+          <div class="project-tagline" data-i18n="projects.onboarding.tagline">Real-Time Business Simulation</div>
+          <p class="project-desc" data-i18n="projects.onboarding.desc">
             Multiplayer corporate onboarding simulation with live KPI management. 8 real-time metrics: Revenue, Safety, ESG, Morale. Classic (scored) and Simulation (strategic) modes.
           </p>
           <div class="project-stack">
@@ -359,38 +360,38 @@
             <span class="pill">Vercel</span>
             <span class="pill">TypeScript</span>
           </div>
-          <div class="project-lineage">↑ 2nd gen, evolved from BizSim + SteelSim</div>
-          <div class="project-impact">8 live KPIs · Multiplayer · Two game modes</div>
+          <div class="project-lineage" data-i18n="projects.onboarding.lineage">↑ 2nd gen, evolved from BizSim + SteelSim</div>
+          <div class="project-impact" data-i18n="projects.onboarding.impact">8 live KPIs · Multiplayer · Two game modes</div>
         </div>
 
       </div>
 
       <!-- Iteration Pattern -->
       <div class="iteration-block reveal">
-        <h4>The Iteration Pattern — Engineering Methodology Applied to Software</h4>
+        <h4 data-i18n="projects.iter.h4">The Iteration Pattern — Engineering Methodology Applied to Software</h4>
         <table class="iteration-table">
           <thead>
             <tr>
-              <th>Current</th>
-              <th>Predecessor</th>
-              <th>What changed</th>
+              <th data-i18n="projects.iter.th1">Current</th>
+              <th data-i18n="projects.iter.th2">Predecessor</th>
+              <th data-i18n="projects.iter.th3">What changed</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Praxis</td>
               <td>Steelmind AI</td>
-              <td>Full multi-agent architecture, production-grade</td>
+              <td data-i18n="projects.iter.td1">Full multi-agent architecture, production-grade</td>
             </tr>
             <tr>
               <td>Onboarding Game</td>
               <td>BizSim + SteelSim</td>
-              <td>Real-time multiplayer, Supabase Realtime</td>
+              <td data-i18n="projects.iter.td2">Real-time multiplayer, Supabase Realtime</td>
             </tr>
             <tr>
               <td>Job Search Automation</td>
               <td>Boolean Search builder</td>
-              <td>6 ATS platforms, Gmail integration, CRM layer</td>
+              <td data-i18n="projects.iter.td3">6 ATS platforms, Gmail integration, CRM layer</td>
             </tr>
           </tbody>
         </table>
@@ -406,8 +407,8 @@
   <section id="stack" class="section-alt">
     <div class="container">
 
-      <span class="section-label reveal">Tech Stack</span>
-      <h2 class="reveal reveal-delay-1">The tools I build with.</h2>
+      <span class="section-label reveal" data-i18n="stack.label">Tech Stack</span>
+      <h2 class="reveal reveal-delay-1" data-i18n="stack.h2">The tools I build with.</h2>
 
       <div class="stack-grid">
 
@@ -495,44 +496,44 @@
   <section id="services">
     <div class="container">
 
-      <span class="section-label reveal">How I Can Help</span>
-      <h2 class="reveal reveal-delay-1">Two tracks.<br/>One rare profile.</h2>
+      <span class="section-label reveal" data-i18n="services.label">How I Can Help</span>
+      <h2 class="reveal reveal-delay-1" data-i18n="services.h2">Two tracks.<br/>One rare profile.</h2>
 
       <div class="services-grid">
 
         <!-- Track 1 -->
         <div class="services-track reveal reveal-delay-1">
-          <span class="services-track-badge">Track 1 — In-House Roles</span>
-          <h3>Strategic Leadership</h3>
-          <p>Enterprise companies undergoing AI transformation and needing someone who can lead strategy AND people change simultaneously.</p>
+          <span class="services-track-badge" data-i18n="services.track1.badge">Track 1 — In-House Roles</span>
+          <h3 data-i18n="services.track1.h3">Strategic Leadership</h3>
+          <p data-i18n="services.track1.p">Enterprise companies undergoing AI transformation and needing someone who can lead strategy AND people change simultaneously.</p>
 
           <div class="services-list">
             <div class="service-item">
               <div class="service-icon">🎓</div>
               <div>
-                <h4>CLO / Head of L&D (AI-first)</h4>
-                <p>Rebuild the learning function around AI — and build the tech layer yourself.</p>
+                <h4 data-i18n="services.track1.s1.h4">CLO / Head of L&D (AI-first)</h4>
+                <p data-i18n="services.track1.s1.p">Rebuild the learning function around AI — and build the tech layer yourself.</p>
               </div>
             </div>
             <div class="service-item">
               <div class="service-icon">🤖</div>
               <div>
-                <h4>Head of AI Enablement / AI Adoption</h4>
-                <p>The emerging title of 2025–2026. Target: tech-forward enterprises, financial services, consulting firms.</p>
+                <h4 data-i18n="services.track1.s2.h4">Head of AI Enablement / AI Adoption</h4>
+                <p data-i18n="services.track1.s2.p">The emerging title of 2025–2026. Target: tech-forward enterprises, financial services, consulting firms.</p>
               </div>
             </div>
             <div class="service-item">
               <div class="service-icon">🏆</div>
               <div>
-                <h4>VP Customer Success (AI SaaS)</h4>
-                <p>You've been on the buyer side at scale — you know why adoption fails and how to fix it.</p>
+                <h4 data-i18n="services.track1.s3.h4">VP Customer Success (AI SaaS)</h4>
+                <p data-i18n="services.track1.s3.p">You've been on the buyer side at scale — you know why adoption fails and how to fix it.</p>
               </div>
             </div>
             <div class="service-item">
               <div class="service-icon">⚡</div>
               <div>
-                <h4>Chief of Staff / AI Strategy</h4>
-                <p>Roles that connect AI product to organizational readiness — translating tech to people and back.</p>
+                <h4 data-i18n="services.track1.s4.h4">Chief of Staff / AI Strategy</h4>
+                <p data-i18n="services.track1.s4.p">Roles that connect AI product to organizational readiness — translating tech to people and back.</p>
               </div>
             </div>
           </div>
@@ -540,37 +541,37 @@
 
         <!-- Track 2 -->
         <div class="services-track reveal reveal-delay-2">
-          <span class="services-track-badge">Track 2 — Consulting</span>
-          <h3>Strategic Engagements</h3>
-          <p>Targeted consulting engagements with clear scope, clear deliverables, and deep enterprise context.</p>
+          <span class="services-track-badge" data-i18n="services.track2.badge">Track 2 — Consulting</span>
+          <h3 data-i18n="services.track2.h3">Strategic Engagements</h3>
+          <p data-i18n="services.track2.p">Targeted consulting engagements with clear scope, clear deliverables, and deep enterprise context.</p>
 
           <div class="services-list">
             <div class="service-item">
               <div class="service-icon">🔍</div>
               <div>
-                <h4>AI Adoption Diagnostic</h4>
-                <p>4-week engagement. Assess AI maturity, identify friction points, deliver 90-day activation roadmap.</p>
+                <h4 data-i18n="services.track2.s1.h4">AI Adoption Diagnostic</h4>
+                <p data-i18n="services.track2.s1.p">4-week engagement. Assess AI maturity, identify friction points, deliver 90-day activation roadmap.</p>
               </div>
             </div>
             <div class="service-item">
               <div class="service-icon">🏗️</div>
               <div>
-                <h4>Agent Architecture & Implementation</h4>
-                <p>Design and deploy multi-agent workflows for L&D, HR, or operations use cases.</p>
+                <h4 data-i18n="services.track2.s2.h4">Agent Architecture & Implementation</h4>
+                <p data-i18n="services.track2.s2.p">Design and deploy multi-agent workflows for L&D, HR, or operations use cases.</p>
               </div>
             </div>
             <div class="service-item">
               <div class="service-icon">📊</div>
               <div>
-                <h4>Executive AI Fluency Programs</h4>
-                <p>Design and delivery of AI literacy for leadership teams and senior managers.</p>
+                <h4 data-i18n="services.track2.s3.h4">Executive AI Fluency Programs</h4>
+                <p data-i18n="services.track2.s3.p">Design and delivery of AI literacy for leadership teams and senior managers.</p>
               </div>
             </div>
             <div class="service-item">
               <div class="service-icon">🔀</div>
               <div>
-                <h4>Post-M&A AI Integration</h4>
-                <p>Specific expertise from the Galicia–HSBC acquisition. High-value, high-urgency entry point.</p>
+                <h4 data-i18n="services.track2.s4.h4">Post-M&A AI Integration</h4>
+                <p data-i18n="services.track2.s4.p">Specific expertise from the Galicia–HSBC acquisition. High-value, high-urgency entry point.</p>
               </div>
             </div>
           </div>
@@ -579,7 +580,7 @@
       </div>
 
       <div class="services-cta reveal">
-        <a href="#contact" class="btn btn-primary" style="font-size:1rem; padding: 0.9rem 2.2rem;">
+        <a href="#contact" class="btn btn-primary" style="font-size:1rem; padding: 0.9rem 2.2rem;" data-i18n="services.cta">
           Let's find the right fit &nbsp;→
         </a>
       </div>
@@ -595,15 +596,15 @@
     <div class="container">
       <div class="contact-inner">
 
-        <span class="section-label reveal">Let's Talk</span>
+        <span class="section-label reveal" data-i18n="contact.label">Let's Talk</span>
 
-        <h2 class="reveal reveal-delay-1">
+        <h2 class="reveal reveal-delay-1" data-i18n="contact.h2">
           The gap between AI capability<br/>
           and organizational readiness?<br/>
           <span>That's where I work.</span>
         </h2>
 
-        <p class="reveal reveal-delay-2">
+        <p class="reveal reveal-delay-2" data-i18n="contact.p">
           Whether you need a strategic leader who can also architect the systems,
           or a consultant who's done it at enterprise scale —
           let's see if there's a fit.
@@ -620,11 +621,11 @@
           </a>
         </div>
 
-        <div class="contact-meta reveal reveal-delay-4">
+        <div class="contact-meta reveal reveal-delay-4" data-i18n="contact.meta">
           📍 Buenos Aires, Argentina &nbsp;·&nbsp; Open to remote &amp; global
         </div>
 
-        <span class="contact-open reveal reveal-delay-4">
+        <span class="contact-open reveal reveal-delay-4" data-i18n="contact.open">
           Open to: Senior in-house AI Enablement roles &nbsp;·&nbsp; Strategic consulting
         </span>
 
@@ -638,7 +639,7 @@
   ═══════════════════════════════════════════════════════════ -->
   <footer>
     <div class="container footer-inner">
-      <div class="footer-left">
+      <div class="footer-left" data-i18n="footer.left">
         <strong>Pablo Samiter</strong> &nbsp;·&nbsp;
         AI Automation Strategist &amp; Agent Orchestrator &nbsp;·&nbsp; 2026
       </div>
