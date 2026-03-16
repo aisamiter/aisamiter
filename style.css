@@ -477,7 +477,7 @@ p { color: var(--text-muted); line-height: 1.75; }
 
 .gap-grid {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
   gap: 1.5rem;
   align-items: stretch;
   margin: 3rem 0;
