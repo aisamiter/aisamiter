@@ -111,4 +111,9 @@
     }, { passive: true });
   }
 
+  /* ── 7. i18n initialization ───────────────────────────────── */
+  if (typeof I18N !== 'undefined') {
+    I18N.init();
+  }
+
 })();
